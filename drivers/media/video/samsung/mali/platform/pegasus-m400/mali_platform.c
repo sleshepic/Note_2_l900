@@ -76,7 +76,7 @@ static struct clk  *mali_clock = 0;
 
 static unsigned int GPU_MHZ	= 1000000;
 
-int mali_gpu_clk = 266;
+int mali_gpu_clk = 350;
 int mali_gpu_vol = 900000;
 
 #if MALI_DVFS_ENABLED

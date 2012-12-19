@@ -5189,7 +5189,7 @@ static u8 t7_config[] = {GEN_POWERCONFIG_T7,
 static u8 t8_config[] = {GEN_ACQUISITIONCONFIG_T8,
 	10, 0, 5, 1, 0, 0, 9, 27
 };
-static u8 t9_config[] = {TOUCH_MULTITOUCHSCREEN_T9,
+static u8 t9_config[] = {TOUCH_MULTITOUCHSCREEN_T9z,
 	143, 0, 0, 18, 11, 0, 16, 32, 2, 0,
 	0, 3, 1, 46, 10, 5, 40, 10, 31, 3,
 	223, 1, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -5323,7 +5323,7 @@ static u8 t8_config[] = { GEN_ACQUISITIONCONFIG_T8,
 static u8 t9_config[] = { TOUCH_MULTITOUCHSCREEN_T9,
 	131, 0, 0, 19, 11, 0, 32, MXT224_THRESHOLD_BATT, 2, 1,
 	0,
-	15,			/* MOVHYSTI */
+	5,			/* MOVHYSTI */
 	1, MXT224_MOVFILTER_BATT, MXT224_MAX_MT_FINGERS, 5, 40, 10, 31, 3,
 	223, 1, 0, 0, 0, 0, 143, 55, 143, 90, 18
 };
