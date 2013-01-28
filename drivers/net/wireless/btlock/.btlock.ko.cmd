@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/btlock/btlock.ko := /opt/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/ian/kernel/note_2_kernel/scripts/module-common.lds --build-id  -o drivers/net/wireless/btlock/btlock.ko drivers/net/wireless/btlock/btlock.o drivers/net/wireless/btlock/btlock.mod.o
